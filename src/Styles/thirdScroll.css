@@ -1,0 +1,58 @@
+.thirdScroll {
+  height: 80.99vw;
+  max-height: 1555px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.thirdScroll .body, .thirdScroll .iphone {
+  margin-top: 7.88%;
+  align-self: center;
+}
+.thirdScroll .body {
+  width: 34%;
+  height: 25%;
+  position: relative;
+  margin-top: 11%;
+  margin-left: 5%;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  max-height: 1555px;
+  min-height: 250px;
+  text-align: start;
+}
+.thirdScroll .body .number {
+  color: #DCAC9B;
+  margin: 0;
+}
+.thirdScroll .body .headerText {
+  margin-top: 0;
+  margin-bottom: 3.8%;
+  width: 390px;
+  height: 130px;
+  color: #1A1A1A;
+}
+.thirdScroll .body .text {
+  width: 484px;
+  height: 96px;
+  color: rgba(26, 26, 26, 0.8);
+  margin: 0;
+}
+.thirdScroll .iphone {
+  position: relative;
+  width: 31.51%;
+  height: 21.22%;
+  margin-left: auto;
+  margin-right: 5%;
+}
+.thirdScroll .andrea {
+  align-self: start;
+  position: relative;
+  top: -12.86%;
+  width: 79.17%;
+  height: 48.87%;
+}
+
+/*# sourceMappingURL=thirdScroll.css.map */

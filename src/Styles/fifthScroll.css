@@ -1,0 +1,148 @@
+.fifthScroll {
+  height: 103.33vw;
+  max-height: 1984px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 15%;
+}
+.fifthScroll .body {
+  width: 34%;
+  height: 35%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-self: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5%;
+}
+.fifthScroll .body .number {
+  color: #DCAC9B;
+}
+.fifthScroll .body .headerText {
+  color: #1A1A1A;
+  margin-bottom: 5%;
+}
+.fifthScroll .body .text {
+  width: 484px;
+  height: 102px;
+  color: rgba(26, 26, 26, 0.8);
+}
+.fifthScroll p {
+  margin: 0;
+}
+.fifthScroll .miniDiv {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 13%;
+}
+.fifthScroll .miniDiv .comingSoon {
+  height: 32px;
+  font-size: 25px;
+  color: #000000;
+  margin: 0 40%;
+  text-transform: uppercase;
+}
+.fifthScroll .miniDiv button {
+  padding: 0;
+  position: relative;
+  min-width: 182px;
+  min-height: 52px;
+  width: 9.17vh;
+  height: 2.62vh;
+  background: #000000;
+  color: #FFFFFF;
+  border-radius: 2px;
+  margin: 2% 0.4%;
+}
+.fifthScroll .miniDiv button .pBtn {
+  font-family: "Sukhumvit Set", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.38rem;
+  line-height: 24px;
+  color: white;
+  margin-left: 23%;
+}
+
+.left-apple {
+  position: absolute;
+  border: none;
+  box-shadow: black;
+  left: 19%;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+
+.left-google {
+  position: absolute;
+  left: 18.5%;
+  color: #FFFFFF;
+  font-size: 1.7rem;
+}
+
+.group {
+  margin-left: auto;
+  margin-right: auto;
+  height: 44.1vh;
+  min-height: 700px;
+  display: flex;
+  align-content: center;
+}
+.group .circles {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+.group .circles .circle {
+  height: 58.26vh;
+  width: 58.26vh;
+  min-height: 300px;
+  min-width: 300px;
+  max-height: 550px;
+  max-width: 550px;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.group .phone {
+  position: absolute;
+  top: 0;
+  height: 43.1vh;
+}
+.group .phone .explore {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 43.1vh;
+  min-height: 700px;
+}
+.group .phone .img1 {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 43.1vh;
+  min-height: 700px;
+}
+.group .phone .img2 {
+  margin: auto;
+  position: absolute;
+  top: 0.5%;
+  left: 0;
+  right: 0;
+  width: 10.37vh;
+  max-width: 190px;
+}
+
+/*# sourceMappingURL=fifthScroll.css.map */

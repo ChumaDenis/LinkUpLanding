@@ -1,0 +1,71 @@
+@import url("http://fonts.cdnfonts.com/css/saudagar");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,80");
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("/src/Fonts/SukhumvitSet-Text.woff2") format("woff2"), url("/src/Fonts/SukhumvitSet-Text.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  font-size: 13px;
+}
+
+@media (max-width: 1250px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (max-width: 800px) {
+  html {
+    font-size: 8px;
+  }
+}
+.secondScroll {
+  height: 66.66vw;
+  max-height: 1280px;
+  min-height: 250px;
+  overflow: hidden;
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.secondScroll .headerText {
+  position: relative;
+  color: #FFFFFF;
+  z-index: 2;
+  width: 45.05%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.secondScroll .text {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 62%;
+  color: rgba(255, 255, 255, 0.8);
+  z-index: 2;
+}
+.secondScroll .comingSoon {
+  position: absolute;
+  margin: 0;
+  top: -0.9rem;
+  left: -9.7vw;
+  width: 120%;
+  font-family: "Saudagar", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16.15vw;
+  font-max-size: 18vmin;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.06;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=secondScroll.css.map */

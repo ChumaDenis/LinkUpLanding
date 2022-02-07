@@ -1,0 +1,64 @@
+@import url("http://fonts.cdnfonts.com/css/saudagar");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,80");
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("/src/Fonts/SukhumvitSet-Text.woff2") format("woff2"), url("/src/Fonts/SukhumvitSet-Text.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  font-size: 13px;
+}
+
+@media (max-width: 1250px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 800px) {
+  html {
+    font-size: 8px;
+  }
+}
+body {
+  margin: auto;
+  max-width: 1920px;
+  min-width: 400px;
+}
+body div {
+  margin: auto;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 400px;
+  text-align: center;
+}
+body .number {
+  width: 37px;
+  height: 45px;
+  font-family: "Saudagar", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: left;
+}
+body .headerText {
+  font-family: "Saudagar", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.2rem;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+body .text {
+  font-family: "Sukhumvit Set", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=App.css.map */

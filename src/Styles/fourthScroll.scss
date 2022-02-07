@@ -1,0 +1,38 @@
+.fourthScroll{
+  height: 49.48vw;
+  max-height: 950px;
+  background: #1A1A1A;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .body{
+    width: 34%;
+    height: 35%;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    text-align: start;
+    align-self: center;
+    margin: 0;
+    p{
+      margin: 0;
+    }
+    .number{
+      color: #DCAC9B;
+    }
+    .headerText{
+      color: #FFFFFF;
+      margin-bottom: 5%;
+    }
+    .text{
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  .image{
+    position: relative;
+    top: -8%;
+    height: 108.42%;
+    width: 30.2%;
+  }
+}
