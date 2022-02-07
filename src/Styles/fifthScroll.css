@@ -1,6 +1,6 @@
 .fifthScroll {
   height: 103.33vw;
-  max-height: 1984px;
+  max-height: 1700px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -9,7 +9,7 @@
 }
 .fifthScroll .body {
   width: 34%;
-  height: 35%;
+  height: 28%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -43,8 +43,7 @@
   margin-top: 13%;
 }
 .fifthScroll .miniDiv .comingSoon {
-  height: 32px;
-  font-size: 25px;
+  font-size: 1.8rem;
   color: #000000;
   margin: 0 40%;
   text-transform: uppercase;
@@ -90,8 +89,7 @@
 .group {
   margin-left: auto;
   margin-right: auto;
-  height: 44.1vh;
-  min-height: 700px;
+  height: 42.1%;
   display: flex;
   align-content: center;
 }
@@ -105,35 +103,32 @@
   bottom: 0;
 }
 .group .circles .circle {
-  height: 58.26vh;
-  width: 58.26vh;
+  height: 42.1%;
+  width: 42.1%;
   min-height: 300px;
   min-width: 300px;
   max-height: 550px;
   max-width: 550px;
-  margin-right: 1%;
-  margin-left: 1%;
+  margin: 0 1%;
 }
 .group .phone {
   position: absolute;
   top: 0;
-  height: 43.1vh;
+  height: 100%;
 }
 .group .phone .explore {
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
-  height: 43.1vh;
-  min-height: 700px;
+  height: 100%;
 }
 .group .phone .img1 {
   margin: auto;
   position: absolute;
   left: 0;
   right: 0;
-  height: 43.1vh;
-  min-height: 700px;
+  height: 100%;
 }
 .group .phone .img2 {
   margin: auto;
