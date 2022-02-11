@@ -7,21 +7,9 @@
   font-style: normal;
   font-display: swap;
 }
-html {
-  font-size: 13px;
-}
-
-@media (max-width: 1250px) {
-  html {
-    font-size: 9px;
-  }
-}
-@media (max-width: 800px) {
-  html {
-    font-size: 8px;
-  }
-}
 .secondScroll {
+  font-size: 16vw;
+  position: relative;
   height: 66.66vw;
   max-height: 1280px;
   min-height: 250px;
@@ -31,6 +19,7 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
+  padding: 0;
 }
 .secondScroll .headerText {
   position: relative;
@@ -50,22 +39,29 @@ html {
   z-index: 2;
 }
 .secondScroll .comingSoon {
-  position: absolute;
   margin: 0;
-  top: -0.9rem;
-  left: -9.7vw;
-  width: 120%;
+  position: absolute;
+  top: -7.1%;
+  left: -1%;
+  width: 102%;
   font-family: "Saudagar", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16.15vw;
-  font-max-size: 18vmin;
-  line-height: 100%;
+  font-size: 1em;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   opacity: 0.06;
   z-index: 1;
+}
+.secondScroll .comingSoon:hover {
+  opacity: 0.1;
+}
+
+@media (min-width: 1950px) {
+  .secondScroll {
+    font-size: 311px;
+  }
 }
 
 /*# sourceMappingURL=secondScroll.css.map */

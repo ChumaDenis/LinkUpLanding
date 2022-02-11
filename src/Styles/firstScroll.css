@@ -1,75 +1,83 @@
 .firstScroll {
-  background: no-repeat center center/cover url("/src/img/maria.svg");
+  background: no-repeat center center/cover url("/src/img/main-background.png");
   z-index: 2;
-  height: 62.5vw;
+  height: 60.6060606061vw;
   max-height: 1200px;
   min-height: 250px;
   font-size: 12px;
 }
 .firstScroll .filter {
-  z-index: 3;
+  z-index: 5;
   background: rgba(0, 0, 0, 0.72);
   min-width: 300px;
   max-height: 1200px;
-  height: 62.5vw;
+  height: 60.6060606061vw;
 }
-.firstScroll .header {
+.firstScroll header {
   position: relative;
   top: 2vw;
   height: 3.1875rem;
-  text-align: center;
   display: flex;
-  justify-content: end;
-  align-self: center;
-  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
   padding-left: 5%;
 }
-.firstScroll .header p {
+.firstScroll header > * {
+  text-align: center;
+}
+.firstScroll header .container {
+  display: flex;
+  position: relative;
+  width: 30%;
+  justify-content: start;
+  margin: 0;
+}
+.firstScroll header .container * {
+  text-align: center;
+}
+.firstScroll header p {
   font-family: "Sukhumvit Set", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.125rem;
-  line-height: 1.5rem;
   color: #FFFFFF;
 }
-.firstScroll .header .lashes {
-  display: flex;
+.firstScroll header .lashes {
+  margin: 0;
+  align-self: center;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 1.9375rem;
   letter-spacing: 0.17em;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: auto;
 }
-.firstScroll .header .comingSoon {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 5%;
+.firstScroll header .comingSoon {
+  align-self: center;
+  text-align: center;
+  margin-right: 10%;
 }
-.firstScroll .header .apple {
+.firstScroll header .apple {
   font-size: 1.2rem;
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: 0.8%;
+  margin-right: 3%;
   color: white;
 }
-.firstScroll .header .appStore {
+.firstScroll header .appStore {
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 5%;
 }
-.firstScroll .header .google {
+.firstScroll header .google {
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: 0.8%;
+  margin-right: 3%;
   font-size: 1.1rem;
   color: white;
 }
-.firstScroll .header .googlePlay {
+.firstScroll header .googlePlay {
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: 5%;
 }
 .firstScroll .body {
   position: relative;
@@ -80,7 +88,7 @@
   align-items: center;
 }
 .firstScroll .body .salon {
-  font-family: "Saudagar", sans-serif;
+  font-family: "Saudagar", monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 17.19rem;
@@ -89,6 +97,16 @@
   margin-bottom: 0;
   text-transform: uppercase;
   color: #FFFFFF;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 5ch;
+  padding: 0;
+  animation: animation-text 7s infinite;
+}
+@keyframes animation-text {
+  from {
+    width: 0;
+  }
 }
 .firstScroll .body .quality {
   margin: 0;

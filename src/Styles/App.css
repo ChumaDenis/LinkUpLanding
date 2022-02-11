@@ -7,20 +7,6 @@
   font-style: normal;
   font-display: swap;
 }
-html {
-  font-size: 13px;
-}
-
-@media (max-width: 1250px) {
-  html {
-    font-size: 10px;
-  }
-}
-@media (max-width: 800px) {
-  html {
-    font-size: 8px;
-  }
-}
 body {
   margin: auto;
   max-width: 1920px;
@@ -36,12 +22,12 @@ body div {
   text-align: center;
 }
 body .number {
-  width: 37px;
+  width: 2.8rem;
   height: 45px;
   font-family: "Saudagar", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 2rem;
   line-height: 150%;
   text-transform: uppercase;
   text-align: left;
@@ -59,6 +45,21 @@ body .text {
   font-style: normal;
   font-weight: 300;
   font-size: 1.5rem;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1000px) {
+  html {
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */
