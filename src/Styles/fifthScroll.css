@@ -4,92 +4,79 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 15%;
 }
-.fifthScroll .body {
-  width: 34%;
-  height: 28%;
-  position: relative;
+.fifthScroll .container {
   display: flex;
-  flex-direction: column;
-  text-align: start;
-  align-self: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 5%;
-}
-.fifthScroll .body .number {
-  color: #DCAC9B;
-}
-.fifthScroll .body .headerText {
-  color: #1A1A1A;
-  margin-bottom: 5%;
-}
-.fifthScroll .body .text {
-  width: 484px;
-  height: 102px;
-  color: rgba(26, 26, 26, 0.8);
+  justify-content: space-around;
 }
 .fifthScroll p {
   margin: 0;
 }
-.fifthScroll .miniDiv {
+.fifthScroll .container-buttons {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  margin-top: 13%;
 }
-.fifthScroll .miniDiv .comingSoon {
+.fifthScroll .container-buttons .comingSoon {
   font-size: 1.8rem;
   color: #000000;
   margin: 0 40%;
   text-transform: uppercase;
 }
-.fifthScroll .miniDiv button {
-  padding: 0;
+.fifthScroll .container-buttons button {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 2.5px;
   position: relative;
-  min-width: 182px;
-  min-height: 52px;
-  width: 9.17vh;
-  height: 2.62vh;
+  max-width: 182px;
+  max-height: 52px;
+  width: 9.48vw;
+  height: 2.71vw;
   background: #000000;
   color: #FFFFFF;
   border-radius: 2px;
   margin: 2% 0.4%;
+  font-size: 0.7rem;
 }
-.fifthScroll .miniDiv button .pBtn {
+.fifthScroll .container-buttons button i {
+  margin-left: 10%;
+  align-self: center;
+}
+.fifthScroll .container-buttons button .pButton {
+  position: relative;
+  align-self: center;
   font-family: "Sukhumvit Set", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.38rem;
-  line-height: 24px;
+  font-size: 1.38em;
+  text-align: center;
   color: white;
-  margin-left: 23%;
+  margin-right: 10%;
 }
 
 .left-apple {
-  position: absolute;
   border: none;
   box-shadow: black;
-  left: 19%;
   color: #FFFFFF;
-  font-size: 1.5rem;
+  font-size: 9.8em;
 }
 
 .left-google {
-  position: absolute;
-  left: 18.5%;
   color: #FFFFFF;
-  font-size: 1.7rem;
+  font-size: 1.4em;
+  top: -5%;
 }
 
 .group {
   margin-left: auto;
   margin-right: auto;
-  height: 42.1%;
+  width: 100%;
+  height: 60.1%;
   display: flex;
   align-content: center;
 }
@@ -111,33 +98,52 @@
   max-width: 550px;
   margin: 0 1%;
 }
+.group .circles :first-child {
+  animation: animation-circle1 15s ease infinite;
+  position: relative;
+}
+.group .circles :last-child {
+  animation: animation-circle2 15s ease infinite;
+  position: relative;
+}
+@keyframes animation-circle1 {
+  from {
+    order: 0;
+    left: 0;
+  }
+  50% {
+    left: 66.7%;
+  }
+  to {
+    left: 0;
+  }
+}
+@keyframes animation-circle2 {
+  from {
+    order: 2;
+    right: 0;
+  }
+  50% {
+    right: 66.7%;
+  }
+  to {
+    right: 0;
+  }
+}
 .group .phone {
   position: absolute;
   top: 0;
   height: 100%;
-}
-.group .phone .explore {
-  position: absolute;
   margin: auto;
   left: 0;
   right: 0;
-  height: 100%;
 }
-.group .phone .img1 {
-  margin: auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 100%;
-}
-.group .phone .img2 {
-  margin: auto;
-  position: absolute;
-  top: 0.5%;
-  left: 0;
-  right: 0;
-  width: 10.37vh;
-  max-width: 190px;
+
+@media (min-width: 1200px) {
+  button {
+    font-size: 6px;
+    background-color: red;
+  }
 }
 
 /*# sourceMappingURL=fifthScroll.css.map */

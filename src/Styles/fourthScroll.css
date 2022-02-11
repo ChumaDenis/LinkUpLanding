@@ -5,29 +5,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-content: center;
 }
-.fourthScroll .body {
-  width: 34%;
-  height: 35%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  text-align: start;
+.fourthScroll .blackContainer {
   align-self: center;
-  margin: 0;
-}
-.fourthScroll .body p {
-  margin: 0;
-}
-.fourthScroll .body .number {
-  color: #DCAC9B;
-}
-.fourthScroll .body .headerText {
-  color: #FFFFFF;
-  margin-bottom: 5%;
-}
-.fourthScroll .body .text {
-  color: rgba(255, 255, 255, 0.8);
 }
 .fourthScroll .image {
   position: relative;
