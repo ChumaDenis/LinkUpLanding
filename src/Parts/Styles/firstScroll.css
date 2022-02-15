@@ -1,0 +1,186 @@
+@import url("http://fonts.cdnfonts.com/css/saudagar");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,80");
+@font-face {
+  font-family: "Sukhumvit Set";
+  src: url("/src/Parts/assets/Fonts/SukhumvitSet-Text.woff2") format("woff2"), url("/src/Parts/assets/Fonts/SukhumvitSet-Text.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.firstScroll {
+  background: no-repeat center center/cover url("/src/Parts/assets/img/main-background.png");
+  z-index: 2;
+  height: 60.6060606061vw;
+  max-height: 1200px;
+  min-width: 375px;
+  font-size: 12px;
+}
+.firstScroll .filter {
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.72);
+  height: 100%;
+  min-width: 300px;
+  max-height: 1200px;
+  position: relative;
+}
+.firstScroll header {
+  box-sizing: border-box;
+  position: absolute;
+  padding: 0 8%;
+  width: 100%;
+  top: 2vw;
+  height: 3.1875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: auto;
+}
+.firstScroll header > * {
+  text-align: center;
+}
+.firstScroll header .header-container {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  margin: 0;
+  width: fit-content;
+}
+.firstScroll header .header-container * {
+  text-align: center;
+}
+.firstScroll header p {
+  font-family: "Sukhumvit Set", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+}
+.firstScroll header .lashes {
+  margin: 0;
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 1.9375rem;
+  letter-spacing: 0.17em;
+  text-align: center;
+}
+.firstScroll header .comingSoon {
+  align-self: center;
+  text-align: center;
+  margin-right: 2em;
+}
+.firstScroll header .apple {
+  font-size: 1.2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1.1%;
+  color: white;
+}
+.firstScroll header .appStore {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5%;
+}
+.firstScroll header .google {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1.1%;
+  font-size: 1.1rem;
+  color: white;
+}
+.firstScroll header .googlePlay {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.firstScroll .container {
+  position: relative;
+  top: 20%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.firstScroll .container h1 {
+  margin: 0 0 5% 0;
+  font-family: "Saudagar", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9.8rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 5ch;
+  padding: 0;
+  animation: animation-text 7s infinite;
+}
+@keyframes animation-text {
+  from {
+    width: 0;
+  }
+}
+.firstScroll .container .quality {
+  margin: 0;
+  position: relative;
+  top: -12%;
+  font-family: "Sukhumvit Set", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.firstScroll .container button {
+  min-width: 100px;
+  min-height: 20.92px;
+  height: 8%;
+  width: 14.69%;
+}
+.firstScroll .container .subscribe {
+  position: relative;
+  top: -3%;
+  background: #DCAC9B;
+  border: none;
+  border-radius: 2px;
+  font-family: "Sukhumvit Set", serif;
+  font-weight: bold;
+  font-size: 1.38rem;
+  color: #1A1A1A;
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1600px) {
+  h1 {
+    font-size: 6px;
+  }
+
+  .container {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .firstScroll {
+    height: 169.6vw;
+    min-height: 636px;
+  }
+  .firstScroll header {
+    height: 100%;
+    padding: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .firstScroll header .header-container {
+    align-self: center;
+    justify-content: center;
+  }
+  .firstScroll .container {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=firstScroll.css.map */

@@ -1,0 +1,55 @@
+@import "fonts";
+
+body {
+  margin: auto;
+  max-width: 1920px;
+  min-width: 375px;
+  div {
+    margin: auto;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 375px;
+    text-align: center;
+  }
+  .number{
+    width: 2.8rem;
+    height: 3.6rem;
+    font-family: "Saudagar", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 130%;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .headerText{
+    font-family: "Saudagar", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.2rem;
+    line-height: 110%;
+    text-transform: uppercase;
+  }
+  .text{
+    font-family: "Sukhumvit Set", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size:1.5rem;
+  }
+}
+html{
+  font-size: 15px;
+}
+@media (max-width: 1200px) {
+  html{
+    font-size: 10px;
+  }
+
+}
+@media (max-width: 650px) {
+  html{
+    font-size: 8px;
+  }
+}

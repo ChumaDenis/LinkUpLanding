@@ -1,20 +1,21 @@
 import React from "react";
-import "./Styles/App.css"
-import "./Styles/firstScroll.css"
-import "./Styles/secondScroll.css"
-import "./Styles/thirdScroll.css"
-import "./Styles/fourthScroll.css"
-import "./Styles/fifthScroll.css"
-import "./Styles/sixthScroll.css"
+import "./Parts/Styles/App.css"
+import "./Parts/Styles/firstScroll.css"
+import "./Parts/Styles/secondScroll.css"
+import "./Parts/Styles/thirdScroll.css"
+import "./Parts/Styles/fourthScroll.css"
+import "./Parts/Styles/fifthScroll.css"
+import "./Parts/Styles/sixthScroll.css"
+import "./Parts/Styles/footer.css"
 
 
-import FirstScroll from "./firstScroll";
-import SecondScroll from "./secondScroll";
-import ThirdScroll from "./thirdScroll";
-import FourthScroll from "./fourthScroll";
-import FifthScroll from "./fifthScroll";
-import SixthScroll from "./sixthScroll";
-import Footer from "./footer";
+import FirstScroll from "./Parts/firstScroll";
+import SecondScroll from "./Parts/secondScroll";
+import ThirdScroll from "./Parts/thirdScroll";
+import FourthScroll from "./Parts/fourthScroll";
+import FifthScroll from "./Parts/fifthScroll";
+import SixthScroll from "./Parts/sixthScroll";
+import Footer from "./Parts/footer";
 function App() {
     return(
         <div className="general">

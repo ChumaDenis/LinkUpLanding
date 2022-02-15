@@ -1,0 +1,41 @@
+.fourthScroll{
+  height: 49.48vw;
+  max-height: 950px;
+  background: #1A1A1A;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  box-sizing: border-box;
+  .blackContainer{
+    align-self: center;
+  }
+  .image{
+    margin: 0;
+    position: relative;
+    top: -8%;
+    height: 108.42%;
+    width: 30.2%;
+    background: no-repeat center center/cover url("/src/Parts/assets/img/image.png");
+  }
+}
+@media (max-width: 750px) {
+  .fourthScroll{
+    height: 112.26vw;
+    min-height: 421px;
+    flex-direction: column;
+    justify-content: space-between;
+    .image{
+      top:0.1px;
+      background-image: url("/src/Parts/assets/img/image2.png");
+      height: 55%;
+      width: 100%;
+    }
+    container{
+      margin: 10%;
+      height: 30%;
+      width: 86%;
+    }
+  }
+  
+}
