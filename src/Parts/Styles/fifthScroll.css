@@ -1,0 +1,192 @@
+.fifthScroll {
+  height: 103.33vw;
+  max-height: 1700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 15%;
+  overflow: hidden;
+}
+.fifthScroll .container {
+  display: flex;
+  justify-content: space-around;
+}
+.fifthScroll p {
+  margin: 0;
+}
+.fifthScroll .container-buttons {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.fifthScroll .container-buttons .comingSoon {
+  font-size: 1.8rem;
+  color: #000000;
+  margin: 0 30%;
+  text-transform: uppercase;
+  width: 100%;
+}
+.fifthScroll .container-buttons button {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 2.5px;
+  position: relative;
+  max-width: 252px;
+  max-height: 72px;
+  width: 14.48vw;
+  height: 3.8vw;
+  background: #000000;
+  color: #FFFFFF;
+  border-radius: 2px;
+  margin: 2% 0.4%;
+  font-size: 0.7rem;
+}
+.fifthScroll .container-buttons button i {
+  margin-left: 10%;
+  align-self: center;
+}
+.fifthScroll .container-buttons button .pButton {
+  position: relative;
+  align-self: center;
+  font-family: "Sukhumvit Set", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.38em;
+  text-align: center;
+  color: white;
+  margin-right: 10%;
+}
+
+.left-apple {
+  border: none;
+  box-shadow: black;
+  color: #FFFFFF;
+  font-size: 1.8em;
+}
+
+.left-google {
+  color: #FFFFFF;
+  font-size: 1.4em;
+  top: -5%;
+}
+
+.group {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 60.1%;
+  min-height: 300px;
+  display: flex;
+  align-content: center;
+}
+.group .circles {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+.group .circles .circle {
+  height: 42.1%;
+  width: 42.1%;
+  max-height: 550px;
+  max-width: 550px;
+  margin: 0 1%;
+}
+.group .circles :first-child {
+  animation: animation-circle1 15s ease infinite;
+  position: relative;
+}
+.group .circles :last-child {
+  animation: animation-circle2 15s ease infinite;
+  position: relative;
+}
+@keyframes animation-circle1 {
+  from {
+    order: 0;
+    left: 0;
+  }
+  50% {
+    left: 66.7%;
+  }
+  to {
+    left: 0;
+  }
+}
+@keyframes animation-circle2 {
+  from {
+    order: 2;
+    right: 0;
+  }
+  50% {
+    right: 66.7%;
+  }
+  to {
+    right: 0;
+  }
+}
+.group .phone {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 750px) {
+  .fifthScroll {
+    height: auto;
+    min-height: 700px;
+  }
+  .fifthScroll .container {
+    flex-direction: column;
+    align-content: center;
+    padding: 0 7%;
+    box-sizing: border-box;
+  }
+  .fifthScroll .container * {
+    width: 100%;
+  }
+  .fifthScroll .container > *:not(:last-child) {
+    margin-bottom: 10%;
+  }
+  .fifthScroll .group {
+    height: 35.1%;
+    width: 400px;
+  }
+  .fifthScroll .group .circle {
+    height: 52.1%;
+    width: 52.1%;
+  }
+  .fifthScroll .container-buttons button {
+    width: 25vw;
+    height: 7vw;
+    min-width: 80px;
+    min-height: 22.5px;
+  }
+  .fifthScroll .container-buttons button .pButton {
+    font-size: 2em;
+  }
+}
+@media (max-width: 450px) {
+  .fifthScroll .container-buttons button .pButton {
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 100px) {
+  .fifthScroll button .left-apple {
+    font-size: 2.9em;
+  }
+  .fifthScroll button .left-google {
+    font-size: 2.5em;
+  }
+}
+
+/*# sourceMappingURL=fifthScroll.css.map */

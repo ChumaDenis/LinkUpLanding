@@ -1,0 +1,97 @@
+@import "fonts";
+
+.sixthScroll{
+  height: 56.25vw;
+  max-height: 1080px;
+  background-color: #1A1A1A;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  .img{
+    width: 49%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+  }
+
+
+  .container{
+    display: flex;
+    position: relative;
+    margin-top: 8%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 85%;
+    width: 49%;
+    font-size: 13px;
+    *{
+      align-self: center;
+    }
+    *:not(:last-child):not(:first-child){
+      margin-bottom: 3%;
+    }
+    .subscribe{
+      margin-top: 5%;
+      width: 58.33%;
+      min-width: 200px;
+      height: 7%;
+      align-self: flex-end;
+      background: $subscribe-color;
+      border: none;
+      border-radius: 2px;
+      font-family: "Sukhumvit Set", serif;
+      font-weight: bold;
+      font-size: 1.38em;
+      color: #1A1A1A;
+    }
+    h2{
+      width: 62.33%;
+      height: 3rem;
+      margin-top: 0;
+      margin-bottom: 5%;
+      text-align: start;
+      font-family: "Saudagar", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 3rem;
+      line-height: 130%;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+  }
+}
+
+@media (max-width: 750px) {
+  .sixthScroll{
+    height: 239.46vw;
+    min-height: 850px;
+
+    .img{
+      opacity: 0;
+      position: absolute;
+    }
+    .container{
+      width: 90%;
+      align-content: space-between;
+      padding: 0 10% 0 7%;
+      box-sizing: border-box;
+      align-self: center;
+      margin: 0;
+      *{
+        width: 100%;
+        min-width: 0;
+      }
+      h2{
+        width: 100%;
+        font-size: 4rem;
+      }
+      .subscribe{
+        width: 100%;
+      }
+    }
+  }
+
+}

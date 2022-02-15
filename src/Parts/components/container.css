@@ -1,0 +1,62 @@
+container {
+  width: 34%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-height: 1555px;
+  text-align: start;
+  overflow: hidden;
+  transition: 0.3s;
+}
+container .number {
+  margin: 0;
+  color: #DCAC9B;
+}
+container .headerText {
+  margin: 0 0 3% 0;
+  width: 80%;
+}
+container .text {
+  width: 85%;
+  margin: 0;
+}
+container:hover {
+  animation-duration: 3s;
+  animation-name: slide;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 10%;
+  }
+}
+.whiteContainer .headerText {
+  color: #1A1A1A;
+}
+.whiteContainer .text {
+  color: rgba(26, 26, 26, 0.8);
+}
+
+.blackContainer .headerText {
+  color: #FFFFFF;
+}
+.blackContainer .text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 750px) {
+  container {
+    height: 20%;
+  }
+  container * {
+    width: 100%;
+  }
+  container .text {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=container.css.map */
