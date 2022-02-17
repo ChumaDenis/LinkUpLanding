@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import Container from "./components/container";
-class FourthScroll extends Component {
+class Section4 extends Component {
     render() {
         return (
-            <div className="fourthScroll">
+            <div className="section3">
                 <Container className="blackContainer"
                     number="02"
                     header="Make good money"
@@ -15,4 +15,4 @@ class FourthScroll extends Component {
     }
 }
 
-export default FourthScroll;
+export default Section4;

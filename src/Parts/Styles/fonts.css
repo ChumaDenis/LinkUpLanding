@@ -1,11 +1,10 @@
 @import url("http://fonts.cdnfonts.com/css/saudagar");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,80");
 @font-face {
-  font-family: "Sukhumvit Set";
-  src: url("/src/Fonts/SukhumvitSet-Text.woff2") format("woff2"), url("/src/Fonts/SukhumvitSet-Text.woff") format("woff");
+  font-family: 'Sukhumvit Set';
+  src: url("/src/Parts/assets/Fonts/SukhumvitSet-Text.woff2") format("woff2"), url("/src/Parts/assets/Fonts/SukhumvitSet-Text.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
 /*# sourceMappingURL=fonts.css.map */

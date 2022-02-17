@@ -1,4 +1,4 @@
-.fourthScroll{
+.section3{
   height: 49.48vw;
   max-height: 950px;
   background: #1A1A1A;
@@ -6,7 +6,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
-  box-sizing: border-box;
+  position: relative;
   .blackContainer{
     align-self: center;
   }
@@ -20,7 +20,7 @@
   }
 }
 @media (max-width: 750px) {
-  .fourthScroll{
+  .section3{
     height: 112.26vw;
     min-height: 421px;
     flex-direction: column;
@@ -32,8 +32,8 @@
       width: 100%;
     }
     container{
-      margin: 10%;
-      height: 30%;
+      margin: auto;
+      height: auto;
       width: 86%;
     }
   }

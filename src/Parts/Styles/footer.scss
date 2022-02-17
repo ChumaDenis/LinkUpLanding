@@ -1,6 +1,4 @@
 footer{
-  height: 5.5vw;
-  max-height: 110px;
   background: #000000;
   min-height: 50px;
   padding:  0 5%;
@@ -44,7 +42,6 @@ footer{
 }
 @media (max-width: 750px) {
   footer{
-    height: 16vw;
     width: 100%;
     box-sizing: border-box;
     justify-content: start;
