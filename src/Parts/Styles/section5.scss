@@ -1,8 +1,8 @@
 @import "fonts";
 
 .section5{
-  height: 60.25vw;
-  max-height: 1080px;
+  //height: 60.25vw;
+  //max-height: 1080px;
   background-color: #1A1A1A;
   position: relative;
   display: flex;
@@ -10,7 +10,6 @@
   .img{
     background-color: #DCAC9B;
     width: 49%;
-    height:100%;
     margin: 0;
     object-fit:cover;
   }
@@ -18,7 +17,7 @@
 
   .container{
     position: relative;
-    box-sizing: border-box;
+    //box-sizing: border-box;
     padding: 5% 0 ;
     display: flex;
     flex-direction: row;
@@ -31,13 +30,13 @@
       align-self: center;
     }
     *:not(:last-child):not(:first-child){
-      margin-bottom:2%;
+      margin-bottom:4%;
     }
     .subscribe{
       margin-top: 5%;
       width: 61.9%;
       min-width: 200px;
-      height: 7%;
+      height: 59px;
       align-self: flex-end;
       background: $subscribe-color;
       border: none;
@@ -68,8 +67,6 @@
 
 @media (max-width: 750px) {
   .section5{
-    height: 239.46vw;
-    min-height: 850px;
 
     .img{
       opacity: 0;
@@ -82,6 +79,9 @@
       padding: 10% 7%;
       align-self: center;
       margin: 0;
+      .form-item:not(:last-child), :first-child{
+        margin-bottom: 10%;
+      }
       *{
         width: 100%;
         min-width: 0;
