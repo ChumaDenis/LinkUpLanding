@@ -1,4 +1,4 @@
-.fourthScroll {
+.section3 {
   height: 49.48vw;
   max-height: 950px;
   background: #1A1A1A;
@@ -6,12 +6,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
-  box-sizing: border-box;
+  position: relative;
 }
-.fourthScroll .blackContainer {
+.section3 .blackContainer {
   align-self: center;
 }
-.fourthScroll .image {
+.section3 .image {
   margin: 0;
   position: relative;
   top: -8%;
@@ -21,23 +21,23 @@
 }
 
 @media (max-width: 750px) {
-  .fourthScroll {
+  .section3 {
     height: 112.26vw;
     min-height: 421px;
     flex-direction: column;
     justify-content: space-between;
   }
-  .fourthScroll .image {
+  .section3 .image {
     top: 0.1px;
     background-image: url("/src/Parts/assets/img/image2.png");
     height: 55%;
     width: 100%;
   }
-  .fourthScroll container {
-    margin: 10%;
-    height: 30%;
+  .section3 container {
+    margin: auto;
+    height: auto;
     width: 86%;
   }
 }
 
-/*# sourceMappingURL=fourthScroll.css.map */
+/*# sourceMappingURL=section3.css.map */

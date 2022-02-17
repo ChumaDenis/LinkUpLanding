@@ -13,7 +13,9 @@ body {
   min-width: 375px;
 }
 body div {
-  margin: auto;
+  margin: unset;
+}
+body .general > div {
   align-content: flex-start;
   position: relative;
   width: 100%;
@@ -48,15 +50,10 @@ body .text {
 }
 
 html {
-  font-size: 15px;
+  font-size: 13px;
 }
 
-@media (max-width: 1200px) {
-  html {
-    font-size: 10px;
-  }
-}
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   html {
     font-size: 8px;
   }

@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 
 
-class FirstScroll extends Component {
+class MainSection extends Component {
     render() {
         return (
-                <div className="firstScroll">
+                <div className="mainSection">
                     <div className="filter">
                         <header>
                             <p className="lashes">LASHES</p>
@@ -28,4 +28,4 @@ class FirstScroll extends Component {
     }
 }
 
-export default FirstScroll;
+export default MainSection;
