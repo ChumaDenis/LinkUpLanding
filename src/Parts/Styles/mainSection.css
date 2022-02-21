@@ -71,7 +71,7 @@
   font-size: 1.2rem;
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: 1.3%;
+  margin-right: 13px;
   color: white;
 }
 .mainSection header .appStore {
@@ -82,7 +82,7 @@
 .mainSection header .google {
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: 1.3%;
+  margin-right: 13px;
   font-size: 1.1rem;
   color: white;
 }
