@@ -15,7 +15,7 @@ body {
 body div {
   margin: unset;
 }
-body .general > div {
+body .gen-style-section {
   align-content: flex-start;
   position: relative;
   width: 100%;

@@ -4,7 +4,7 @@ import Input from "./components/input";
 class Section5 extends Component {
     render() {
         return (
-            <div className="section5">
+            <div className="section5 gen-style-section">
                 <img className="img" src={polina} alt=""/>
 
 

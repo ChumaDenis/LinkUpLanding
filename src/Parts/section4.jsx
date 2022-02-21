@@ -3,7 +3,7 @@ import Container from "./components/container";
 class Section4 extends Component {
     render() {
         return (
-            <div className="section3">
+            <div className="section3 gen-style-section">
                 <Container className="blackContainer"
                     number="02"
                     header="Make good money"

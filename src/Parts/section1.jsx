@@ -8,7 +8,7 @@ import Container from "./components/container";
 class Section1 extends Component {
     render() {
         return (
-            <div className="section4">
+            <div className="section4 gen-style-section">
 
                     <div className="container">
                         <Container className="whiteContainer"

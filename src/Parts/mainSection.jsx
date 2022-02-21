@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class MainSection extends Component {
     render() {
         return (
-                <div className="mainSection">
+                <div className="mainSection gen-style-section">
                     <div className="filter">
                         <header>
                             <p className="lashes">LASHES</p>

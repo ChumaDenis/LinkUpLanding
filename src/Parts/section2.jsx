@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Section2 extends Component {
     render() {
         return (
-            <div className="section1">
+            <div className="section1 gen-style-section">
                 <p className="comingSoon">Coming Soon</p>
                 <div className="container">
                     <p className="headerText">Lash Experts to your doors within hours</p>

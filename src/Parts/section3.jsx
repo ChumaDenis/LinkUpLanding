@@ -7,7 +7,7 @@ import Container from "./components/container";
 class Section3 extends Component {
     render() {
         return (
-            <div className="section2">
+            <div className="section2 gen-style-section">
                 <img className="andrea" src={andrea} alt=""/>
                 <div className="container">
                     <img className="iphone" src={iphone} alt=""/>
