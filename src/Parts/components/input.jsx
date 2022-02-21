@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "./input.css"
+import "./Styles/input.css"
 export default function Input(props) {
     return (
          <div className="form-item">

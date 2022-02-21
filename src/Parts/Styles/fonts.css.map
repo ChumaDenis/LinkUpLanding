@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["fonts.scss"],"names":[],"mappings":"AAQQ;AACA;AATR;EACE;EACA;EAEA;EACA;EACA","file":"fonts.css"}
+{
+    "version": 3,
+    "mappings": "AAQA,OAAO,CAAC,6CAAI;AACZ,OAAO,CAAC,oEAAI;AATZ,UAAU;EACR,WAAW,EAAE,eAAe;EAC5B,GAAG,EAAE,sDAAsD,CAAC,eAAe,EAC3E,qDAAqD,CAAC,cAAc;EACpE,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,YAAY,EAAE,IAAI",
+    "sources": [
+        "fonts.scss"
+    ],
+    "names": [],
+    "file": "fonts.css"
+}

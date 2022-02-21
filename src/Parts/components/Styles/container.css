@@ -5,8 +5,10 @@ container {
   flex-direction: column;
   max-height: 1555px;
   text-align: start;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
   overflow: hidden;
-  transition: 0.3s;
 }
 container .number {
   margin: 0;
@@ -22,17 +24,11 @@ container .text {
 }
 container:hover {
   animation-duration: 3s;
-  animation-name: slide;
+  -webkit-transform: translate(10%, 0);
+  -moz-transform: translate(10%, 0);
+  -o-transform: translate(10%, 0);
 }
 
-@keyframes slide {
-  from {
-    margin-left: 0;
-  }
-  to {
-    margin-left: 10%;
-  }
-}
 .whiteContainer .headerText {
   color: #1A1A1A;
 }
