@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LinkUpLanding/static/css/main.7ec3ec12.css",
+    "main.css": "/LinkUpLanding/static/css/main.7534c116.css",
     "main.js": "/LinkUpLanding/static/js/main.d7b54d55.js",
     "static/media/phone-vixen.svg": "/LinkUpLanding/static/media/phone-vixen.99db79d96a8ec93dcd5544e685320261.svg",
     "static/media/main-background.png": "/LinkUpLanding/static/media/main-background.8cabd40d7c6b2445d931.png",
@@ -14,11 +14,11 @@
     "static/media/circle2.svg": "/LinkUpLanding/static/media/circle2.5ed22dd4236025655ee9dd664ce57d5c.svg",
     "index.html": "/LinkUpLanding/index.html",
     "static/media/circle1.svg": "/LinkUpLanding/static/media/circle1.19100e8d6e2f78a8deab761372835db4.svg",
-    "main.7ec3ec12.css.map": "/LinkUpLanding/static/css/main.7ec3ec12.css.map",
+    "main.7534c116.css.map": "/LinkUpLanding/static/css/main.7534c116.css.map",
     "main.d7b54d55.js.map": "/LinkUpLanding/static/js/main.d7b54d55.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ec3ec12.css",
+    "static/css/main.7534c116.css",
     "static/js/main.d7b54d55.js"
   ]
 }
