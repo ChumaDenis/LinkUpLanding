@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/LinkUpLanding/static/css/main.7ec3ec12.css",
+    "main.js": "/LinkUpLanding/static/js/main.d7b54d55.js",
+    "static/media/phone-vixen.svg": "/LinkUpLanding/static/media/phone-vixen.99db79d96a8ec93dcd5544e685320261.svg",
+    "static/media/main-background.png": "/LinkUpLanding/static/media/main-background.8cabd40d7c6b2445d931.png",
+    "static/media/polina.png": "/LinkUpLanding/static/media/polina.d1e34d6e9df7c505477c.png",
+    "static/media/andrea.png": "/LinkUpLanding/static/media/andrea.936fb55573d62a97a2d8.png",
+    "static/media/iphone.png": "/LinkUpLanding/static/media/iphone.f5d25afddc28763c9a90.png",
+    "static/media/image.png": "/LinkUpLanding/static/media/image.5e23671eb7e91f1ee04b.png",
+    "static/media/image2.png": "/LinkUpLanding/static/media/image2.17c902e7c79f32df8f05.png",
+    "static/media/SukhumvitSet-Text.woff": "/LinkUpLanding/static/media/SukhumvitSet-Text.5eec3975dda77f46e5f2.woff",
+    "static/media/SukhumvitSet-Text.woff2": "/LinkUpLanding/static/media/SukhumvitSet-Text.f3ae3b6ed45bdefa5db0.woff2",
+    "static/media/circle2.svg": "/LinkUpLanding/static/media/circle2.5ed22dd4236025655ee9dd664ce57d5c.svg",
+    "index.html": "/LinkUpLanding/index.html",
+    "static/media/circle1.svg": "/LinkUpLanding/static/media/circle1.19100e8d6e2f78a8deab761372835db4.svg",
+    "main.7ec3ec12.css.map": "/LinkUpLanding/static/css/main.7ec3ec12.css.map",
+    "main.d7b54d55.js.map": "/LinkUpLanding/static/js/main.d7b54d55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ec3ec12.css",
+    "static/js/main.d7b54d55.js"
+  ]
+}
