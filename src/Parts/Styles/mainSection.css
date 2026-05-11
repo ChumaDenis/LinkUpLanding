@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,80");
 @font-face {
   font-family: "Sukhumvit Set";
-  src: url("/src/Parts/assets/Fonts/SukhumvitSet-Text.woff2") format("woff2"), url("/src/Parts/assets/Fonts/SukhumvitSet-Text.woff") format("woff");
+  src: url("../assets/Fonts/SukhumvitSet-Text.woff2") format("woff2"), url("../assets/Fonts/SukhumvitSet-Text.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 .mainSection {
-  background: no-repeat center center/cover url("/src/Parts/assets/img/main-background.png");
+  background: no-repeat center center/cover url("../assets/img/main-background.png");
   z-index: 2;
   min-width: 375px;
   font-size: 12px;
