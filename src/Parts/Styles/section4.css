@@ -1,89 +1,97 @@
-.fifthScroll {
-  height: 103.33vw;
-  max-height: 1700px;
+.section4 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 15%;
   overflow: hidden;
+  position: relative;
+  padding: 10% 0;
+  box-sizing: border-box;
 }
-.fifthScroll .container {
+.section4 .container {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
-.fifthScroll p {
+.section4 p {
   margin: 0;
 }
-.fifthScroll .container-buttons {
+.section4 .container-buttons {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 }
-.fifthScroll .container-buttons .comingSoon {
+.section4 .container-buttons .comingSoon {
   font-size: 1.8rem;
   color: #000000;
   margin: 0 30%;
   text-transform: uppercase;
   width: 100%;
 }
-.fifthScroll .container-buttons button {
+.section4 .container-buttons button {
   display: flex;
   justify-content: space-around;
   align-content: center;
   padding-top: 2.5px;
   position: relative;
-  max-width: 252px;
-  max-height: 72px;
-  width: 14.48vw;
-  height: 3.8vw;
+  width: 182px;
+  height: 52px;
   background: #000000;
   color: #FFFFFF;
   border-radius: 2px;
   margin: 2% 0.4%;
-  font-size: 0.7rem;
+  font-size: 18px;
 }
-.fifthScroll .container-buttons button i {
+.section4 .container-buttons button i {
   margin-left: 10%;
   align-self: center;
 }
-.fifthScroll .container-buttons button .pButton {
+.section4 .container-buttons button .pButton {
   position: relative;
   align-self: center;
   font-family: "Sukhumvit Set", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.38em;
+  font-size: 1em;
   text-align: center;
   color: white;
   margin-right: 10%;
 }
-
-.left-apple {
+.section4 .container-buttons button .left-apple {
   border: none;
   box-shadow: black;
   color: #FFFFFF;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
-
-.left-google {
+.section4 .container-buttons button .left-google {
   color: #FFFFFF;
-  font-size: 1.4em;
+  font-size: 1.3em;
   top: -5%;
 }
 
 .group {
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  height: 50vw;
   width: 100%;
-  height: 60.1%;
   min-height: 300px;
+  max-height: 900px;
   display: flex;
   align-content: center;
 }
+.group .phone {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
 .group .circles {
+  height: 65%;
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -93,10 +101,12 @@
   bottom: 0;
 }
 .group .circles .circle {
-  height: 42.1%;
+  height: 100%;
   width: 42.1%;
   max-height: 550px;
   max-width: 550px;
+  min-height: 202px;
+  min-width: 202px;
   margin: 0 1%;
 }
 .group .circles :first-child {
@@ -131,62 +141,42 @@
     right: 0;
   }
 }
-.group .phone {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  margin: auto;
-  left: 0;
-  right: 0;
-}
 
 @media (max-width: 750px) {
-  .fifthScroll {
+  .section4 {
     height: auto;
-    min-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  .fifthScroll .container {
+  .section4 .container {
     flex-direction: column;
     align-content: center;
     padding: 0 7%;
     box-sizing: border-box;
   }
-  .fifthScroll .container * {
+  .section4 .container * {
     width: 100%;
+    height: auto;
   }
-  .fifthScroll .container > *:not(:last-child) {
+  .section4 .container > *:not(:last-child) {
     margin-bottom: 10%;
   }
-  .fifthScroll .group {
-    height: 35.1%;
-    width: 400px;
+  .section4 .group {
+    height: 90vw;
+    width: 150%;
   }
-  .fifthScroll .group .circle {
-    height: 52.1%;
-    width: 52.1%;
+  .section4 .group .circles {
+    width: 170vw;
   }
-  .fifthScroll .container-buttons button {
-    width: 25vw;
-    height: 7vw;
-    min-width: 80px;
-    min-height: 22.5px;
+  .section4 .group .circles .circle {
+    width: 90.1%;
   }
-  .fifthScroll .container-buttons button .pButton {
-    font-size: 2em;
-  }
-}
-@media (max-width: 450px) {
-  .fifthScroll .container-buttons button .pButton {
-    font-size: 1.3em;
-  }
-}
-@media (min-width: 100px) {
-  .fifthScroll button .left-apple {
-    font-size: 2.9em;
-  }
-  .fifthScroll button .left-google {
-    font-size: 2.5em;
+  .section4 .container-buttons button {
+    width: 158px;
+    height: 45px;
+    font-size: 12px;
   }
 }
 
-/*# sourceMappingURL=fifthScroll.css.map */
+/*# sourceMappingURL=section4.css.map */

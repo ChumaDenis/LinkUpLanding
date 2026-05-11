@@ -1,5 +1,5 @@
 import React from 'react';
-import "./container.css"
+import "./Styles/container.css"
 export default function Container(props) {
     return (
         <container className={props.className}>

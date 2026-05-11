@@ -1,30 +1,30 @@
 import React from "react";
 import "./Parts/Styles/App.css"
-import "./Parts/Styles/firstScroll.css"
-import "./Parts/Styles/secondScroll.css"
-import "./Parts/Styles/thirdScroll.css"
-import "./Parts/Styles/fourthScroll.css"
-import "./Parts/Styles/fifthScroll.css"
-import "./Parts/Styles/sixthScroll.css"
+import "./Parts/Styles/mainSection.css"
+import "./Parts/Styles/section1.css"
+import "./Parts/Styles/section2.css"
+import "./Parts/Styles/section3.css"
+import "./Parts/Styles/section4.css"
+import "./Parts/Styles/section5.css"
 import "./Parts/Styles/footer.css"
 
 
-import FirstScroll from "./Parts/firstScroll";
-import SecondScroll from "./Parts/secondScroll";
-import ThirdScroll from "./Parts/thirdScroll";
-import FourthScroll from "./Parts/fourthScroll";
-import FifthScroll from "./Parts/fifthScroll";
-import SixthScroll from "./Parts/sixthScroll";
+import MainSection from "./Parts/mainSection";
+import Section2 from "./Parts/section2";
+import Section3 from "./Parts/section3";
+import Section4 from "./Parts/section4";
+import Section1 from "./Parts/section1";
+import Section5 from "./Parts/section5";
 import Footer from "./Parts/footer";
 function App() {
     return(
         <div className="general">
-            <FirstScroll/>
-            <SecondScroll/>
-            <ThirdScroll/>
-            <FourthScroll/>
-            <FifthScroll/>
-            <SixthScroll/>
+            <MainSection/>
+            <Section2/>
+            <Section3/>
+            <Section4/>
+            <Section1/>
+            <Section5/>
             <Footer/>
         </div>
     );

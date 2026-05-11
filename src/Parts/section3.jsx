@@ -4,10 +4,10 @@ import iphone from "./assets/img/iphone.png";
 
 import Container from "./components/container";
 
-class ThirdScroll extends Component {
+class Section3 extends Component {
     render() {
         return (
-            <div className="thirdScroll">
+            <div className="section2 gen-style-section">
                 <img className="andrea" src={andrea} alt=""/>
                 <div className="container">
                     <img className="iphone" src={iphone} alt=""/>
@@ -22,4 +22,4 @@ class ThirdScroll extends Component {
     }
 }
 
-export default ThirdScroll;
+export default Section3;

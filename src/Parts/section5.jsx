@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 import polina from "./assets/img/polina.png";
 import Input from "./components/input";
-class SixthScroll extends Component {
+class Section5 extends Component {
     render() {
         return (
-            <div className="sixthScroll">
+            <div className="section5 gen-style-section">
                 <img className="img" src={polina} alt=""/>
+
+
                 <div className="container">
                     <h2>subscribe</h2>
                     <Input name="First name"/>
@@ -22,4 +24,4 @@ class SixthScroll extends Component {
     }
 }
 
-export default SixthScroll;
+export default Section5;

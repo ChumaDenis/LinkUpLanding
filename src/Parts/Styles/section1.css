@@ -7,43 +7,42 @@
   font-style: normal;
   font-display: swap;
 }
-.secondScroll {
-  font-size: 16vw;
+.section1 {
+  font-size: 16.1vw;
   position: relative;
-  height: 66.66vw;
-  max-height: 1280px;
   min-height: 250px;
   overflow: hidden;
   background-color: #1A1A1A;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
-  padding: 0;
+  justify-content: center;
 }
-.secondScroll .headerText {
+.section1 .container {
+  position: relative;
+  padding: 5% 0 17% 0;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.section1 .container > * {
+  align-self: center;
+}
+.section1 .container .headerText {
   position: relative;
   color: #FFFFFF;
   z-index: 2;
-  width: 45.05%;
-  margin-left: auto;
-  margin-right: auto;
 }
-.secondScroll .text {
+.section1 .container .text {
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0;
-  width: 62%;
   color: rgba(255, 255, 255, 0.8);
   z-index: 2;
 }
-.secondScroll .comingSoon {
+.section1 .comingSoon {
   margin: 0;
-  position: absolute;
-  top: -7.1%;
-  left: -1%;
-  width: 102%;
+  line-height: 92%;
+  white-space: nowrap;
+  position: relative;
   font-family: "Saudagar", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -54,36 +53,30 @@
   opacity: 0.06;
   z-index: 1;
 }
-.secondScroll .comingSoon:hover {
+.section1 .comingSoon:hover {
   opacity: 0.1;
 }
 
 @media (min-width: 1950px) {
-  .secondScroll {
-    font-size: 311px;
+  .section1 {
+    font-size: 309px;
+  }
+  .section1 .container {
+    width: 40%;
   }
 }
-@media (max-width: 1250px) {
-  .secondScroll .headerText {
-    width: 90%;
+@media (max-width: 750px) {
+  .section1 .container {
+    width: 95%;
   }
-  .secondScroll .text {
+  .section1 .container .text {
     width: 80%;
   }
 }
-@media (max-width: 768px) {
-  .secondScroll {
-    height: 132vw;
-    min-height: 495px;
-  }
-  .secondScroll .comingSoon {
-    top: -3%;
-  }
-}
-@media (max-width: 350px) {
-  .secondScroll .comingSoon {
-    font-size: 61px;
+@media (max-width: 380px) {
+  .section1 {
+    font-size: 60px;
   }
 }
 
-/*# sourceMappingURL=secondScroll.css.map */
+/*# sourceMappingURL=section1.css.map */

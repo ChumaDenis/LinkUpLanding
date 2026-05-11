@@ -4,8 +4,8 @@ body {
   margin: auto;
   max-width: 1920px;
   min-width: 375px;
-  div {
-    margin: auto;
+  div{margin: unset;}
+  .gen-style-section {
     align-content: flex-start;
     position: relative;
     width: 100%;
@@ -40,16 +40,14 @@ body {
   }
 }
 html{
-  font-size: 15px;
+  font-size: 13px;
 }
-@media (max-width: 1200px) {
-  html{
-    font-size: 10px;
-  }
 
-}
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   html{
     font-size: 8px;
   }
 }
+
+
+
